@@ -1,20 +1,8 @@
 
-# Network Monitoring System
+# Network Monitoring and Analysis System
 
-This repository contains scripts to monitor and analyze network statistics, focusing on tracking network throughput, packet success rate, and packet loss in real time. The system collects network activity data and stores it in an Excel file for further analysis and visualization.
+This project contains scripts to monitor and analyze network statistics, focusing on tracking network throughput, packet success rate, and packet loss in real time. The system collects network activity data and stores it in an Excel file for further analysis and visualization.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Data Collection](#data-collection)
-  - [Monitoring](#monitoring)
-  - [Clearing Data](#clearing-data)
-  - [Visualization](#visualization)
-- [File Descriptions](#file-descriptions)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -105,24 +93,6 @@ The visualizations will automatically display when running `monitoring.py`.
 - **`monitoring.py`**: Reads data from the Excel file, calculates throughput, packet success rates, and packet loss, and visualizes them with plots.
 - **`network_stats.xlsx`**: The Excel file where network statistics are logged and stored for analysis.
 
-## Contributing
-
-Contributions are welcome! If you would like to contribute, please fork the repository and create a pull request with your changes.
-
-1. Fork the repository.
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature-branch
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m 'Add new feature'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-branch
-   ```
-5. Open a pull request.
 
 ## License
 
